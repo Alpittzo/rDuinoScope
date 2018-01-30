@@ -1,6 +1,4 @@
 # rDuinoScope
 I'm working on a mount project using rDuinoScope.
-I have an issue with compiling the code for my rDuinoScope based project, I'm using the ElecHouse 3.2" TFT LCD 240*400 touch screen,
-with the TFT Shield V2.1, and each time I add the Library for it from Elechouse (#include <pin_magic.h>
-#include <tftlib.h>) the compiling fails, without it it works everytime, but the touch function isnt working. I'll add the code and the compiling errors.
-If anyone knows where I'm going wrong some advice/help would be hugely appreciated! 
+I have an issue with the touch controls, the X and Y axis of the touch function are inverted (when I want to press a button in bottom left corner for example I have to press top right corner etc.)
+If anyone knows how to fix this or where I'm going wrong some advice/help would be hugely appreciated! 
