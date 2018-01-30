@@ -1,31 +1,7 @@
-#include <pin_magic.h>
-#include <tftlib.h>
-
-#include <ads7843.h>
-
-#include <XPT2046.h>
-
-#include <Adafruit_GFX.h>
-
-#include <DS3231.h>
-
-#include <rtc_clock.h>
-
-#include <DueTimer.h>
-
-#include <Stepper.h>
-
-#include <Time.h>
-#include <TimeLib.h>
-
 #include <TinyGPS++.h>
-
-#include <UTouch.h>
-
-#include <SPI.h>
-
-#include <SD.h>
-
+#include <ads7843.h>
+#include <Adafruit_GFX.h>    // Core graphics library
+#include <tftlib.h>          // Hardware-specific library
 //
 //    rDUINOScope - Arduino based telescope control system (GOTO).
 //    Copyright (C) 2016 Dessislav Gouzgounov (Desso)
